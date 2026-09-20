@@ -27,9 +27,7 @@ $form_page = DOMAIN_ADMIN . 'configure-plugin/' . $this->className();
 
 <h1><span class="page-title-icon fa fa-book"></span> <span class="page-title-text"><?php $L->p( 'Posts Lists Guide' ) ?></span></h1>
 
-<div class="alert alert-primary alert-posts-lists" role="alert">
-	<p class="m-0"><?php $L->p( "Go to the <a href='{$form_page}'>sidebar settings</a> page." ); ?></p>
-</div>
+<p class="page-description"><?php $L->p( "Go to the <a href='{$form_page}'>sidebar settings</a> page." ); ?></p>
 
 <h2 class="form-heading "><?php $L->p( 'Sidebar Posts List' ) ?></h2>
 
